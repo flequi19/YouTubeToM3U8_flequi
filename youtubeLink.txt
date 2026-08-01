@@ -4,7 +4,7 @@
 ## <category> is used to group streams, so something like 'Music' or 'News' is recommended.
 
 Metallica || metallica.yt || Music
-https://www.youtube.com/live/1fz60gNnSdU?si=NTnppv4IrbqN7hNb
+https://manifest.googlevideo.com/api/manifest/hls_playlist/expire/1785637150/ei/vlRuap66OZ2yobIP-Z2kgA0/ip/190.231.233.68/id/1fz60gNnSdU.1/itag/96/source/yt_live_broadcast/requiressl/yes/ratebypass/yes/live/1/sgoap/gir%3Dyes%3Bitag%3D140/sgovp/gir%3Dyes%3Bitag%3D137/rqh/1/hls_chunk_host/rr8---sn-uxaxjvh5gbxoupo5-jvgz.googlevideo.com/xpc/EgVo2aDSNQ%3D%3D/playlist_duration/30/manifest_duration/30/gcr/ar/bui/AZFlqhMd0imQJTeR-WbOQUZ2_EEEzTW8WUj9AEJvSjhbNz2UMRvVzAx_lSQW8gBWP7uAD1rl-ZeBP4fT/spc/KBGBcugvSd__9phggSwJQ0ItFhta54t0lXZ_N79eqwfnn8Sq8A/vprv/1/reg/0/playlist_type/DVR/initcwndbps/2232500/met/1785615551,/mh/IQ/mm/44/mn/sn-uxaxjvh5gbxoupo5-jvgz/ms/lva/mv/m/mvi/8/pl/22/rms/lva,lva/dover/11/pacing/0/keepalive/yes/fexp/51565115/mt/1785615155/sparams/expire,ei,ip,id,itag,source,requiressl,ratebypass,live,sgoap,sgovp,rqh,xpc,playlist_duration,manifest_duration,gcr,bui,spc,vprv,reg,playlist_type/sig/AE0s2JYwRAIgAMuJAfQ7K-_A7qylrsDRAzJe8-gQDs7tnk-e09FxEs0CICe4QC-VSKVUl5tXbL1P39M4ZFF_HmnLfJRw6FwzcXna/lsparams/hls_chunk_host,initcwndbps,met,mh,mm,mn,ms,mv,mvi,pl,rms/lsig/APaTxxMwRgIhAJeYtODNi-2_I3jGvfrBROBeGGZwVZuRXEdU383ydCyMAiEA3oSfkWg1-k7nKq5ZrHJhLohbEa7bhSKK-eU0BYMLWA8%3D/playlist/index.m3u8
 
 
 
