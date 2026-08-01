@@ -2,7 +2,7 @@ name: LinkGrabber
 
 on:
   schedule:
-    - cron: '0 */3 * * *'
+    - cron: '0 */3 * * *'   # corre cada 3 horas
   pull_request:
     branches: [ main ]
   workflow_dispatch:
@@ -10,8 +10,9 @@ on:
 jobs:
   runCode:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v4   # versión nueva, compatible con Node.js 24
 
       - name: Grab Link
         run: |
