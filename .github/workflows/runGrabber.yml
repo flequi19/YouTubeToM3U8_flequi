@@ -1,5 +1,8 @@
 name: LinkGrabber
 
+permissions:
+  contents: write   # da permiso al workflow para hacer push
+
 on:
   schedule:
     - cron: '0 */3 * * *'   # corre cada 3 horas
@@ -12,15 +15,19 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4   # versión nueva, compatible con Node.js 24
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
 
-      - name: Grab Link
+      - name: Run grabber and commit if changed
         run: |
           chmod +x exec_grabber.sh && ./exec_grabber.sh
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add youtube.m3u8 epg.xml
+          git add youtube.m3u8 epg.xml || true
           git commit -m "Update playlist" || echo "No changes to commit"
-          git push
+          git push origin HEAD:main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
